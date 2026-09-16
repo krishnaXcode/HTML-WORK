@@ -141,9 +141,11 @@ button {
 
     .basic_details {
       .avatar {
-        align-items: center;
-        display: flex;
-        gap: 10px;
+        align-items: right;
+        display: relative;
+        gap: 50px;
+        width: 70px;
+        height: 70px;
 
         div {
           background: var(--light);
@@ -153,8 +155,8 @@ button {
         }
 
         img {
-          width: 40px;
-          height: 40px;
+          width: 90px;
+          height: 90px;
         }
       }
     }
